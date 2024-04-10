@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+
+body{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(231, 231, 215);
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+
+}
+/*ESTILOS DE LA SECCION HEADER */
+.header{
+    
+    height: 400px;
+    background-color: rgb(35, 165, 148);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+ .header img{
+    width: 150px;
+    border-radius: 50%
+   
+ }
+ .texto h1{
+    font-weight: 700;
+    text-align: center;
+ }
+ .texto span{
+    font-weight: 300;
+    background-color: #ffbb00;
+    padding: 0 20px;
+ }
+
+ .header button{
+    width: 200px;
+    margin: auto;
+    color: #ffbb00;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 10px;
+ }
+ .header button:hover{
+    color: black;
+    background-color: #ffbb00;
+    cursor: pointer;
+}
+
+/*ESTILOS DE LA SECCION NAV */
+.navbar{
+   background-color: black;
+   height: 100px;
+   text-align: center;
+   
+
+}
+.navbar a{
+   text-decoration: none;
+   color: #ffbb00;
+   font-size: 2rem;
+   margin: 0 10px;
+   display: inline-block;
+   line-height: 100px;
+   transition: all 0.4s;
+}
+.navbar a:hover{
+   color: aliceblue;
+   transform: scale(1.1);
+   background-color: darkgoldenrod;
+   padding: 0 20px;
+ }
+
+ /*Estilos de la seccion main-*/
+
+.main{
+
+   height: 100vh;
+   background-color: lightgray;
+}
+.section {
+   width: 70%;
+   background: yellow;
+
+}
+.article{
+   width: 60%;
+   background: yellowgreen;
+}
+
+
+
+
+img{
+   width: 300px;
+   height: 200px;
+   
+}
+
+
+
+.section{
+   width: 70%;
+   background-color: darkgray;
+
+}
+
+.aside{
+   width: 30%;
+   height: 400px;
+   background-color: red;
+   float: right;
+
+}
+
